@@ -1,4 +1,5 @@
 # sales-forecasting
+![Tests](https://github.com/Imaneimy/sales-forecasting/actions/workflows/tests.yml/badge.svg)
 
 At Orange Maroc I was regularly asked to project next month's procurement spend based on historical trends. The forecasting was done manually in Excel. This project is a Python implementation of that process — an ARIMA model trained on 30 months of monthly revenue data and evaluated on a 6-month holdout.
 
