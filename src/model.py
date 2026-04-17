@@ -40,3 +40,5 @@ def residual_stats(fitted_model) -> dict:
         "std": round(float(resid.std()), 2),
         "max_abs": round(float(resid.abs().max()), 2),
     }
+
+# note: on real data, use SARIMA (seasonal ARIMA) for monthly periodicity
